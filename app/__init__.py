@@ -15,8 +15,12 @@ logger = logging.getLogger(__name__)
 
 
 SERVERS = {
-    "BF": os.getenv("BD_SERVER", "https://clientbp.ggblueshark.com"),
+     "EUROPE": os.getenv("EUROPE_SERVER", "https://clientbp.ggblueshark.com"),
+     "IND": os.getenv("IND_SERVER", "https://client.ind.freefiremobile.com"),
+     "BR": os.getenv("BR_SERVER", "https://client.us.freefiremobile.com"),
+     "BD": os.getenv("BD_SERVER", "https://clientbp.ggblueshark.com"),
 }
+
 
 
 token_cache = TokenCache(servers_config=SERVERS) 
