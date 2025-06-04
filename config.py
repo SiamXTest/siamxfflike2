@@ -3,5 +3,4 @@ CONFIG = {
     "IND": "ind_config.json",
     "BR": "br_config.json",
 
-
 }
