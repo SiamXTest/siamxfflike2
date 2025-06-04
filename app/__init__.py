@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 
 
 SERVERS = {
-    "EUROPE": os.getenv("EUROPE_SERVER", "https://clientbp.ggblueshark.com"),
+    "BF": os.getenv("BD_SERVER", "https://clientbp.ggblueshark.com"),
 }
 
 
