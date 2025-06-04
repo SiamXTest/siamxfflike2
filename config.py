@@ -1,3 +1,3 @@
 CONFIG = {
-     "EUROPE": "europe_config.json",
+     "BD": "bd_config.json",
 }
